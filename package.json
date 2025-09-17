@@ -1,0 +1,20 @@
+{
+  "name": "challange-as",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasbuzato/Challange-AS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucasbuzato/Challange-AS/issues"
+  },
+  "homepage": "https://github.com/lucasbuzato/Challange-AS#readme"
+}
