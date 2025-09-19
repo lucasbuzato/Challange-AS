@@ -10,6 +10,7 @@ const IntegranteCard = ({
   linkedin
 }) => {
   return (
+    <>
     <div className='flex flex-col justify-center rounded-2xl items-center w-[333px] h-[493px] shadow-xl'>
       <img 
         src={foto} 
@@ -27,6 +28,7 @@ const IntegranteCard = ({
 </a>
       </div>
     </div>
+    </>
   );
 };
 

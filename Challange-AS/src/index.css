@@ -8,7 +8,27 @@
   --color-footer:#ADDCF0;
     --font-lexend: 'Lexend', sans-serif;
   --color-blue-light:#7D8CF0;
+   --animate-title: title 2s ease-in-out;
 }
 
+@layer utilities {
+  .remove-number-spinners::-webkit-outer-spin-button,
+  .remove-number-spinners::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  .remove-number-spinners {
+    -moz-appearance: textfield;
+  }
+}
 
+@keyframes title {
+    0% {
+        opacity:0%
+    }
 
+    100% {
+        opacity: 100%;
+    }
+}

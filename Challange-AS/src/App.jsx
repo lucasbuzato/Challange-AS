@@ -1,5 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./componentes/Navbar";
+import Footer from "./componentes/Footer";
 
 import Home from "./pages/Home";
 import Integrantes from "./pages/Integrantes";
@@ -20,6 +21,9 @@ function App() {
           <Route path="/faq" element={<FAQ />} />
         </Routes>
         </main>
+
+        <Footer />
+
     </>
   );
 }

@@ -13,12 +13,12 @@ function Home() {
                 style={{
                     backgroundImage: `url(${backgroundImage})`,
                     backgroundSize: 'cover',
-                    backgroundPosition: 'center',
+                    backgroundPosition: '50%',
                     backgroundRepeat: 'no-repeat'
                 }}>
-                <div className="flex flex-col justify-center text-center gap-5">
-                    <h1 className="text-4xl md:text-6xl font-bold text-text-white">Conheça a Necta</h1>
-                    <h4 className="text-3xl text-center md:text-4xl w-xl text-text-white">Onde Facilitamos a Tecnologia, para Ampliar Horizontes</h4>
+                <div className="flex flex-col justify-center items-center text-center gap-5 animate-title max-w-[400px] sm:max-w-5xl ">
+                    <h1 className="text-4xl md:text-6xl font-bold text-text-white ">Conheça a Preztach</h1>
+                    <h4 className="text-3xl text-center md:text-4xl sm:max-w-xl text-text-white ">Onde Facilitamos a Tecnologia, para Ampliar Horizontes</h4>
                 </div>
             </section>
 
@@ -33,16 +33,16 @@ function Home() {
                     <div className='max-w-[380px] md:max-w-[480px] min-h-[144px]  flex flex-row items-center text-text'>
                         <img src={Icon1} className='w-15 h-15 mr-5' alt="Icone Missão" />
                         <div className='flex flex-col text-justify gap-2'>
-                            <h4 className='font-bold text-4xl '>Nossa missão</h4>
-                            <p className='text-2xl'>A Necta procura, por meio da tecnologia simples e intuitiva, ensinar aqueles que não conhecem o meio a usá-lo sem medo ou dificuldades.
+                            <h4 className='font-bold text-2xl sm:text-4xl '>Nossa missão</h4>
+                            <p className='text-xl sm:text-2xl'>A Preztech procura, por meio da tecnologia simples e intuitiva, ensinar aqueles que não conhecem o meio a usá-lo sem medo ou dificuldades.
                             </p>
                         </div>
                     </div>
                     <div className='max-w-[380px] md:max-w-[480px] min-h-[144px] flex flex-row items-center text-text'>
                         <img src={Icon2} className='w-15 h-15 mr-5' alt="Icone Para Quem" />
                         <div className='flex flex-col text-justify gap-2'>
-                            <h4 className='font-bold text-4xl'>Para quem?</h4>
-                            <p className='text-2xl' >Idosos, PCDs, analfabetos funcionais e outras pessoas que não conseguem acompanhar a tecnologia e suas atualizações constantes.
+                            <h4 className='font-bold text-2xl sm:text-4xl'>Para quem?</h4>
+                            <p className='text-xl sm:text-2xl' >Idosos, PCDs, analfabetos funcionais e outras pessoas que não conseguem acompanhar a tecnologia e suas atualizações constantes.
                             </p>
                         </div>
                     </div>
@@ -56,20 +56,15 @@ function Home() {
 
             <section className='min-h-screen bg-bg flex justify-evenly items-center flex-wrap'>
                 <div className='text-text-white w-[680px] flex flex-col text-justify gap-8 p-10 md:p-0'>
-                <h1 className=' text-7xl font-bold'>Nossa parceria</h1>
-                <p className='text-3xl'>No início de 2025, foi proposta uma parceria da Startup com o HC (Hospital das Clínicas) em busca de reduzir as taxas de absenteísmo nas consultas. Para isso, com a ajuda da instituição de ensino FIAP, nós trabalhamos na solução pensada não somente para esse público, mas nós também visualizamos o problema em todas as suas dimensões para poder ajudar outras empresas futuramente, considerando que esse problema acontece com frequência pelo mesmo fator, que é a falta de conhecimento e educação digital.</p>
-                <p  className='text-3xl font-bold'>
+                <h1 className='text-3xl sm:text-7xl font-bold'>Nossa parceria</h1>
+                <p className='text-xl sm:text-3xl'>No início de 2025, foi proposta uma parceria da Startup com o HC (Hospital das Clínicas) em busca de reduzir as taxas de absenteísmo nas consultas. Para isso, com a ajuda da instituição de ensino FIAP, nós trabalhamos na solução pensada não somente para esse público, mas nós também visualizamos o problema em todas as suas dimensões para poder ajudar outras empresas futuramente, considerando que esse problema acontece com frequência pelo mesmo fator, que é a falta de conhecimento e educação digital.</p>
+                <p  className='text-xl sm:text-3xl font-bold'>
                 Explore nosso site e confira mais informações sobre o projeto!
                 </p>
                 </div>
-                <img src={Ellipse} className='w-[600px] h-[600px] p-10 md:p-0' alt="Image Hospital das Clinicas" />
+                <img src={Ellipse} className='w-[400px] h-[400px] sm:w-[600px] sm:h-[600px] p-10 md:p-0' alt="Image Hospital das Clinicas" />
             </section>
 
-            <footer className='h-25 bg-footer flex justify-center items-center'>
-                <h1 className='text-xl font-bold text-text-white'>
-                    @direitos autorais
-                </h1>
-            </footer>
         </>
     );
 }
